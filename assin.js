@@ -1,12 +1,15 @@
-//Write a JavaScript program to calculate BMI using weight and height and display the BMI value.
+// Write a JavaScript program to calculate BMI using weight and height and display the BMI value.
+
 var Weight= parseFloat(prompt("Enter your weight: "));
 var Height= parseFloat(prompt("Enter your height: "));
-let bmi = weight / (height*height);
-console.log("Your BIM is: ", bmi);
+let bmi = Weight / (Height*Height);
+console.log("Your BIM is:", bmi);
 
 
-var weight = 65
-var height = 1.7
 
-let BMI = weight / (height * height)
-console.log("Your weight is: ",BMI.toFixed((2)))
+// var weight = 65
+// var height = 1.7
+
+// let BMI = weight / (height * height)
+// // console.log("Your weight is: ",BMI.toFixed((2)))
+// console.log(BMI);

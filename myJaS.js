@@ -52,6 +52,36 @@
 
 
 //write a program to convert the degree celsius to degree fahrenheit [celsius*(9/6)+32]
-let c = 30
-let df =  c*(9/6)+32
-console.log("farenheit = ", df);
+// let c = 30
+// let df =  c*(9/6)+32
+// console.log("farenheit = ", df);
+
+
+
+
+
+
+
+//conditional statement
+let a = 20
+let b = 10
+let c = 40
+// If else statement 
+// if(a>b) {
+//     console.log(a+"is Greater")
+// }
+// else {
+//     console.log(b+"is greater")
+// }
+
+
+//else if
+if (a>b && a>c) {
+    console.log(a+"C is greater")
+} 
+else if(b>c) {
+    console.log(b+"c is greater")
+} 
+else {
+    console.log(c+"c is greater");
+}
